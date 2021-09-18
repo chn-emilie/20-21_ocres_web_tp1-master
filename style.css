@@ -92,7 +92,6 @@ p{
     padding: 20px;
     width: 1000px;
     height: 250px;
-    z-index: 2;
 }
 
 .project-photo{
@@ -101,8 +100,13 @@ p{
     margin:  auto 20px auto;
     height: 200px;
     width: 300px;
-    z-index: 10;
 }
+
+.qrcode{
+    float: right;
+    margin-right: 20px;
+}
+
 
 /*Parcours scolaire*/
 #formation{
