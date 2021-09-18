@@ -1,0 +1,120 @@
+body{
+    font-family: monospace;
+    background: rgb(148, 24, 24);
+}
+
+/* Barre de navigation*/
+header{
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 40px 100px;
+    z-index: 100000;
+}
+
+header.sticky{
+    padding: 5px 100px;
+    background: black;
+    opacity: 0.7;
+}
+
+header ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li{
+    position: relative;
+    list-style: none;
+}
+
+header ul li a{
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    transition: 0.6s;
+}
+
+.banner{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+/* Présentation de moi */
+#presentation{
+    background: white;
+    margin: 40px 0 40px 0;
+    padding: 60px;
+    height: 500px;
+    width: 1200px;
+   box-shadow: 0px 0px 40px rgba(0,0,0,0.3);
+}
+
+.photo{
+    float: left;
+    margin-right: 20px;
+}
+
+p{
+    text-align: justify;
+}
+
+/* Formulaire de contact */
+.left-column{
+    float: left;
+    margin: 40px;
+    padding: 30px;
+}
+
+.right-column{
+    float: left;
+    margin: 40px;
+    padding: 30px;
+}
+
+
+/* Pied de page */
+footer{
+    clear: both;
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: static;
+    width: 100%;
+    height: 40px;
+    padding-top: 15px;
+}
+
+#icons {
+    text-align: center;
+}
+
+#icons a{
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 1.3em;
+    color: black;
+}
+
+#icons-perso ul{
+    list-style: none;
+    padding-left: 0px;
+}
+
+#icons-perso a{
+    font-size: 1.3em;
+    color: black;
+}
+

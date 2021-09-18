@@ -1,0 +1,154 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>CV Emilie CHEN</title>
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="css/carousel.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    </head>
+
+<body>
+
+    <!-- Barre de navigation-->
+    <header>
+        <ul>
+            <li> <a href="#"> <i class="ion-ios-home"> </i> </a></li>
+            <li> <a href="#presentation"> A PROPOS </a></li>
+            <li> <a href="#projet"> EXPERIENCES </a></li>
+            <li> <a href="#formation"> FORMATIONS </a></li>
+            <li> <a href="#competences"> COMPETENCES </a></li>
+            <li> <a href="#loisirs"> LOISIRS </a></li>
+            <li> <a href="#contact"> CONTACT </a></li>
+        </ul>
+    </header>
+
+    <section class="banner"></section>
+    
+
+    <script type="text/javascript">
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
+
+    <!-- Partie présentation-->
+    <section id="presentation">
+            <img class="photo" src="PhotoCV.png" alt="photo cv" height="200px" width="150px">
+            <h1>Emilie CHEN</h1>
+            <h4>Etudiante en 2ème année du cycle ingénieur - Majeure OCRES</h4>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum justo at 
+                massa consectetur mattis. Ut mollis ullamcorper ex vitae pharetra. Proin facilisis
+                pellentesque viverra. Suspendisse neque neque, fermentum sed lacinia ac, elementum 
+                ac nisi. Vivamus vitae velit eget purus placerat sollicitudin. Fusce sagittis eros
+                et scelerisque posuere. Nullam nec est sagittis dui convallis dapibus nec vel lectus. 
+            </p>
+       
+        
+    </section>
+
+
+    <!-- Partie projet scolaire-->
+    <section id="projet">
+
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+
+    </section>
+
+
+    <!-- Partie formation scolaire-->
+    <section id="formations">
+
+    </section>
+
+
+    <!-- Partie compétences-->
+    <section class="competences">
+
+    </section>
+
+
+    <!-- Partie Loisirs-->
+    <section class="loisirs">
+
+    </section>
+
+
+    <!-- Partie Contact -->
+    <section class="contact">
+        <article class="left-column">
+            <h1>Pour me contacter </h1>
+
+            <form>
+                <table>
+                    <tr>
+                        <td> Nom :</td>
+                        <td><input type="text" name="nom" style="width: 400px;"></td>
+                    </tr>
+
+                    <tr>
+                        <td> E-mail :</td>
+                        <td><input type="text" name="mail" style="width: 400px;"></td>
+                    </tr>
+
+                    <tr>
+                        <td> Sujet :</td>
+                        <td><input type="text" name="sujet" style="width: 400px;"></td>
+                    </tr>
+                    
+                    <tr>
+                        <td> Votre message :</td>
+                        <td><textarea name="message" cols="54" rows="10"></textarea></td>
+                    </tr>
+
+                    <tr>
+                        <td align="center"><button type="submit">Envoyer !</button></td>
+                    </tr>
+                </table>
+            </form>
+
+        </article>
+
+        <article class="right-column">
+            <h1>Comment me rejoindre autrement ? </h1>
+
+            <p>Mes coordonnées personnelles</p>
+
+            <div id="icons-perso"> 
+                <ul>
+                    <li><span class="ion-ios-location"> 15 Rue des Saints-Sauveurs, 92260 Fontenay-aux-Roses </span></li>
+                    <li><span class="ion-ios-telephone"> +33 6 16 60 39 62</span></li>
+                    <li><span class="ion-ios-email"><a href="mailto:emilie.chen@edu.ece.fr"> emilie.chen@edu.ece.fr</a></span></li>
+                </ul>
+            </div><br>
+
+            <P>Je suis également disponible sur les réseaux sociaux </P>
+
+            <div id="icons"> 
+                <a href="#"> <i class="icon ion-social-linkedin"> </i> </a>
+                <a href="#"> <i class="icon ion-social-facebook"> </i> </a>
+                <a href="#"> <i class="icon ion-social-instagram"> </i> </a>
+            </div>
+
+        </article>
+
+    </section>
+
+    <footer>
+    
+        <span>Réalisé par Emilie CHEN - OCRES Promo 2023</span>
+    
+    </footer>
+
+
+</body>
+
+</html>
